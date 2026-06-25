@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Probability Decision-making Task with ambiguity",
-  "description": "This dataset comprises multimodal neuroimaging and electrophysiological recordings from 53 healthy volunteers (aged 18-31 years) performing a probability decision-making task under conditions of risk and ambiguity. Data include structural MRI (T1w, T2w, DWI), task-based fMRI, and concurrent EEG recordings during transcranial magnetic stimulation applied over parietal regions and the vertex. The dataset enables investigation of neural mechanisms underlying decision-making under uncertainty, with particular focus on parietal cortex function and its interactions with distributed brain networks.",
-  "methods_description": "Participants performed a probability decision-making task during fMRI acquisition. Concurrent EEG recordings were obtained during transcranial magnetic stimulation (TMS) applied over two parietal regions and the vertex. Structural MRI included T1-weighted, T2-weighted, and diffusion-weighted imaging sequences.",
+  "description": "This dataset comprises multimodal neuroimaging and electrophysiological recordings from 53 healthy volunteers (aged 18-31) performing a probability decision-making task under conditions of risk and ambiguity. Data include structural MRI (T1w, T2w, DWI), task-based fMRI, and concurrent EEG recordings during transcranial magnetic stimulation applied to parietal regions and the vertex. The dataset enables investigation of neural mechanisms underlying decision-making under uncertainty, with particular focus on parietal cortex function and its interactions with distributed brain networks.",
+  "methods_description": "Participants performed a probability decision-making task during fMRI acquisition. Concurrent EEG recordings were obtained during inhibitory transcranial magnetic stimulation (TMS) applied over two parietal regions and the vertex. Structural MRI included T1-weighted, T2-weighted, and diffusion-weighted imaging sequences.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -25,34 +25,10 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D000066491"
     },
     {
-      "term": "Uncertainty",
+      "term": "Magnetic Resonance Imaging",
       "subject_scheme": "MeSH",
       "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D035841"
-    },
-    {
-      "term": "Transcranial Magnetic Stimulation",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D050781"
-    },
-    {
-      "term": "Parietal Lobe",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D010296"
-    },
-    {
-      "term": "Ambiguity",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D035841"
-    },
-    {
-      "term": "Functional Magnetic Resonance Imaging",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D005973"
+      "value_uri": "http://id.nlm.nih.gov/mesh/D008279"
     },
     {
       "term": "Electroencephalography",
@@ -61,10 +37,34 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     },
     {
-      "term": "Risk",
+      "term": "Transcranial Magnetic Stimulation",
       "subject_scheme": "MeSH",
       "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D012306"
+      "value_uri": "http://id.nlm.nih.gov/mesh/D050781"
+    },
+    {
+      "term": "ambiguity"
+    },
+    {
+      "term": "fMRI"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "parietal cortex"
+    },
+    {
+      "term": "risk"
+    },
+    {
+      "term": "uncertainty"
+    },
+    {
+      "term": "decision-making under uncertainty"
+    },
+    {
+      "term": "neuromodulation"
     }
   ],
   "related_identifiers": [
