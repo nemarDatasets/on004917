@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Probability Decision-making Task with ambiguity",
+  "description": "This dataset comprises multimodal neuroimaging and electrophysiological recordings from 53 healthy volunteers (aged 18-31 years) performing a probability decision-making task under conditions of risk and ambiguity. Data include structural MRI (T1w, T2w, DWI), task-based fMRI, and concurrent EEG recordings during transcranial magnetic stimulation applied over parietal regions and the vertex. The dataset enables investigation of neural mechanisms underlying decision-making under uncertainty, with particular focus on parietal cortex function and its interactions with distributed brain networks.",
+  "methods_description": "Participants performed a probability decision-making task during fMRI acquisition. Concurrent EEG recordings were obtained during transcranial magnetic stimulation (TMS) applied over two parietal regions and the vertex. Structural MRI included T1-weighted, T2-weighted, and diffusion-weighted imaging sequences.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -15,12 +17,57 @@
       "orcid": "0000-0003-4261-0678"
     }
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds004917.v1.0.1",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "Decision Making",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000066491"
     },
+    {
+      "term": "Uncertainty",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D035841"
+    },
+    {
+      "term": "Transcranial Magnetic Stimulation",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D050781"
+    },
+    {
+      "term": "Parietal Lobe",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D010296"
+    },
+    {
+      "term": "Ambiguity",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D035841"
+    },
+    {
+      "term": "Functional Magnetic Resonance Imaging",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D005973"
+    },
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "Risk",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D012306"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004917.v1.0.0",
       "identifier_type": "DOI",
@@ -45,6 +92,11 @@
       "identifier": "10.17605/OSF.IO/ZD3G7",
       "identifier_type": "DOI",
       "relation_type": "IsSupplementedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004917.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -66,6 +118,7 @@
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "Structural MRI Dataset",
   "modalities": [
     "anat",
     "dwi",
@@ -73,9 +126,8 @@
     "func",
     "eeg"
   ],
-  "resource_type_specific": "Structural MRI Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "39.2 GB (411 files)"
   ],
   "formats": [
     ".bval",
@@ -86,43 +138,8 @@
     ".md",
     ".tsv",
     ".vhdr",
-    ".vmrk"
+    ".vmrk",
+    ".yml"
   ],
-  "description": "A comprehensive neuroimaging dataset investigating decision-making under risk and ambiguity, comprising structural and functional MRI, diffusion-weighted imaging, and concurrent EEG recordings during transcranial magnetic stimulation of parietal regions in 53 healthy young adults. The dataset enables investigation of parietal cortex involvement and its interactions with other brain regions during probabilistic decision-making with uncertain outcomes.",
-  "methods_description": "Data collection included structural MRI (T1-weighted, T2-weighted, and diffusion-weighted imaging), functional MRI during task performance, and concurrent EEG recordings during inhibitory transcranial magnetic stimulation applied over two parietal regions and the vertex in 53 healthy volunteers aged 18-31 years.",
-  "keywords": [
-    {
-      "term": "decision-making"
-    },
-    {
-      "term": "ambiguity"
-    },
-    {
-      "term": "fMRI"
-    },
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "Transcranial Magnetic Stimulation",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D050781"
-    },
-    {
-      "term": "parietal cortex"
-    },
-    {
-      "term": "risk"
-    },
-    {
-      "term": "diffusion-weighted imaging"
-    },
-    {
-      "term": "functional MRI"
-    },
-    {
-      "term": "concurrent EEG-TMS"
-    }
-  ],
-  "source_hash": "b31ecc6e1d0e7b8404bbf9e1b6aa9bc9d9a0d04e81ad13e5d69022d36a1b6508"
+  "source_hash": "73e17aafa762d9f71dbc659b52c276ec0df4ff10a5f801401f7fbf6d4df52e72"
 }
