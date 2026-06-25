@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004917-blue)](https://doi.org/10.82901/nemar.on004917)
+
 Summary
 
 This dataset forms part of a study supported by the Social Neuroscience and Neuromodulation Laboratory of Universidad del Desarrollo, Chile.
