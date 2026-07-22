@@ -1,145 +1,53 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "dataset_id": "on004917",
+  "source": "openneuro",
+  "source_id": "ds004917",
   "title": "Probability Decision-making Task with ambiguity",
-  "description": "This dataset comprises multimodal neuroimaging and electrophysiological recordings from 53 healthy volunteers (aged 18-31) performing a probability decision-making task under conditions of risk and ambiguity. Data include structural MRI (T1w, T2w, DWI), task-based fMRI, and concurrent EEG recordings during transcranial magnetic stimulation applied to parietal regions and the vertex. The dataset enables investigation of neural mechanisms underlying decision-making under uncertainty, with particular focus on parietal cortex function and its interactions with distributed brain networks.",
-  "methods_description": "Participants performed a probability decision-making task during fMRI acquisition. Concurrent EEG recordings were obtained during inhibitory transcranial magnetic stimulation (TMS) applied over two parietal regions and the vertex. Structural MRI included T1-weighted, T2-weighted, and diffusion-weighted imaging sequences.",
-  "license": "CC0",
-  "dataset_type": "raw",
   "authors": {
     "Alejandra Figueroa-Vargas": {},
-    "Gabriela Valdebenito-Oyarzo": {
-      "orcid": "0000-0003-3819-7112"
-    },
+    "Gabriela Valdebenito-Oyarzo": {},
     "María Paz Martínez-Molina": {},
     "Francisco Zamorano": {},
-    "Pablo Billeke": {
-      "orcid": "0000-0003-4261-0678"
-    }
+    "Pablo Billeke": {}
   },
-  "keywords": [
-    {
-      "term": "Decision Making",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D000066491"
-    },
-    {
-      "term": "Magnetic Resonance Imaging",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D008279"
-    },
-    {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
-    },
-    {
-      "term": "Transcranial Magnetic Stimulation",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D050781"
-    },
-    {
-      "term": "ambiguity"
-    },
-    {
-      "term": "fMRI"
-    },
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "parietal cortex"
-    },
-    {
-      "term": "risk"
-    },
-    {
-      "term": "uncertainty"
-    },
-    {
-      "term": "decision-making under uncertainty"
-    },
-    {
-      "term": "neuromodulation"
-    }
-  ],
+  "license": "CC0",
+  "dataset_type": "raw",
   "related_identifiers": [
-    {
-      "identifier": "10.18112/openneuro.ds004917.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsDerivedFrom"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/on004917",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004917",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "10.1371/journal.pbio.3002452",
-      "identifier_type": "DOI",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "10.17605/OSF.IO/ZD3G7",
-      "identifier_type": "DOI",
-      "relation_type": "IsSupplementedBy"
-    },
     {
       "identifier": "10.18112/openneuro.ds004917.v1.0.1",
       "identifier_type": "DOI",
-      "relation_type": "IsDerivedFrom"
+      "relation_type": "IsIdenticalTo"
     }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.9.0",
+  "recording_modality": [
+    "anat",
+    "dwi",
+    "eeg",
+    "fmap",
+    "func"
+  ],
+  "datatypes": [
+    "anat",
+    "dwi",
+    "eeg",
+    "fmap",
+    "func"
   ],
   "funding_references": [
     {
-      "funder_name": "ANID",
-      "award_number": "FONDECYT 11140535"
+      "funder_name": "ANID FONDECYT 11140535"
     },
     {
-      "funder_name": "ANID",
-      "award_number": "FONDECYT 1181295"
+      "funder_name": "ANID FONDECYT 1181295"
     },
     {
-      "funder_name": "ANID",
-      "award_number": "FONDECYT 1211227"
+      "funder_name": "ANID FONDECYT 1211227"
     },
     {
-      "funder_name": "ANID",
-      "award_number": "FONDEQUIP EQM150076"
+      "funder_name": "ANID FONDEQUIP EQM150076"
     }
-  ],
-  "resource_type_general": "Dataset",
-  "resource_type_specific": "Structural MRI Dataset",
-  "modalities": [
-    "anat",
-    "dwi",
-    "fmap",
-    "func",
-    "eeg"
-  ],
-  "sizes": [
-    "39.2 GB (411 files)"
-  ],
-  "formats": [
-    ".bval",
-    ".bvec",
-    ".eeg",
-    ".gz",
-    ".json",
-    ".md",
-    ".tsv",
-    ".vhdr",
-    ".vmrk",
-    ".yml"
-  ],
-  "source_hash": "73e17aafa762d9f71dbc659b52c276ec0df4ff10a5f801401f7fbf6d4df52e72"
+  ]
 }
