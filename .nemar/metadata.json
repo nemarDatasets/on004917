@@ -2,17 +2,46 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Probability Decision-making Task with ambiguity",
+  "description": "A multimodal dataset of human decision-making under risk and ambiguity from 53 healthy volunteers aged 18-31. It includes structural MRI (T1w, T2w, DWI), task fMRI, and concurrent EEG recorded during inhibitory transcranial magnetic stimulation over two parietal regions and the vertex. The data enable investigation of the role of the parietal cortex in ambiguity computations.",
+  "methods_description": "Participants performed a probability decision-making task with risk and ambiguity conditions during fMRI acquisition. EEG was recorded concurrently with inhibitory TMS applied over two parietal regions and the vertex. Structural MRI included T1w, T2w, and diffusion-weighted imaging.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
     "Alejandra Figueroa-Vargas": {},
-    "Gabriela Valdebenito-Oyarzo": {},
+    "Gabriela Valdebenito-Oyarzo": {
+      "orcid": "0000-0003-3819-7112"
+    },
     "María Paz Martínez-Molina": {},
     "Francisco Zamorano": {},
     "Pablo Billeke": {
       "orcid": "0000-0003-4261-0678"
     }
   },
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "fMRI"
+    },
+    {
+      "term": "Transcranial Magnetic Stimulation",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D050781"
+    },
+    {
+      "term": "Clinical Decision-Making",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000066491"
+    },
+    {
+      "term": "ambiguity"
+    },
+    {
+      "term": "parietal cortex"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004917.v1.0.0",
@@ -37,7 +66,12 @@
     {
       "identifier": "10.1371/journal.pbio.3002452",
       "identifier_type": "DOI",
-      "relation_type": "IsSupplementTo"
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.17605/osf.io/zd3g7",
+      "identifier_type": "DOI",
+      "relation_type": "References"
     }
   ],
   "funding_references": [
@@ -59,6 +93,7 @@
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "Structural MRI Dataset",
   "modalities": [
     "anat",
     "dwi",
@@ -66,9 +101,8 @@
     "func",
     "eeg"
   ],
-  "resource_type_specific": "Structural MRI Dataset",
   "sizes": [
-    "39.2 GB (411 files)"
+    "36.47 GB (307 files)"
   ],
   "formats": [
     ".bval",
@@ -81,38 +115,6 @@
     ".vhdr",
     ".vmrk",
     ".yml"
-  ],
-  "description": "This dataset provides multimodal neuroimaging data from 53 healthy young adults performing a probabilistic decision-making task involving risk and ambiguity. It combines structural MRI (T1w, T2w, DWI), functional MRI acquired during task performance, and concurrent EEG recordings during inhibitory TMS applied over parietal regions and the vertex. The dataset aims to elucidate the role of the parietal cortex and its interactions with other brain regions in decision-making under uncertainty.",
-  "methods_description": "Data include structural MRI (T1w, T2w, DWI) and task-based fMRI, together with concurrent EEG recordings collected during inhibitory transcranial magnetic stimulation (TMS) applied over two parietal regions and the vertex, in 53 healthy volunteers aged 18-31 performing a decision-making task under risk and ambiguity.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "fMRI"
-    },
-    {
-      "term": "Transcranial Magnetic Stimulation",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D050781"
-    },
-    {
-      "term": "Clinical Decision-Making",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D000066491"
-    },
-    {
-      "term": "Parietal Lobe",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D010296"
-    },
-    {
-      "term": "ambiguity"
-    },
-    {
-      "term": "risk"
-    }
   ],
   "source_hash": "73e17aafa762d9f71dbc659b52c276ec0df4ff10a5f801401f7fbf6d4df52e72"
 }
